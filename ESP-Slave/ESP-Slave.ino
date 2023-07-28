@@ -11,7 +11,6 @@
 //Deklarasi Pin
 #define pHPin 34
 #define LEDPin 14
-#define DHT_PIN 15
 #define sensor_pin 32
 
 #define BOARD_ID 1
@@ -19,7 +18,6 @@
 #define SEALEVELPRESSURE_HPA (1013.25)
 
 Adafruit_BME280 bme;        //BME I2C
-DHTesp dhtSensor;
 int moisture,sensor_analog; //Nilai ADC Sensor Kelembapan Tanah
 int pHsensorValue = 0;      //Nilai ADC Sensor pH
 float pHoutputValue = 0.0;
