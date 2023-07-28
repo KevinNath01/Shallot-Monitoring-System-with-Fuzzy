@@ -1,7 +1,7 @@
 # ESP-Slave Configuration
 
 ESP-Slave is the ESP32 that connected to the sensors and have a job to retrieving data from sensor and send it to ESP-Master to be processed. The communication to ESP-Master is done with ESP-NOW Protocol so it doesn't need wifi or bluetooth.
-This sensor will send data every 3 seconds and the soil pH value is averaged from 20 sensor reading data to ensure a more stable data reading.
+This sensor will send JSON data every 3 seconds and the soil pH value is averaged from 20 sensor reading data to ensure a more stable data reading.
 
 The sensor use in this project is : 
 1. BME280
