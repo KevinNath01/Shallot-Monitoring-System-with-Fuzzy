@@ -12,3 +12,4 @@ Before using please configure this parameter below :
 1. Define Max Channel 11/13 according to your country (Line 18)
 2. ESP-Master MAC Address (Line 28)
 3. pH Function based on your calibration result (Line 212)
+4. BoardID (Line 255)
