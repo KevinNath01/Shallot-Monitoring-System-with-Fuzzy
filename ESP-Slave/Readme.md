@@ -6,7 +6,7 @@ This sensor will send JSON data every 3 seconds and the soil pH value is average
 The sensor use in this project is : 
 1. BME280
 2. Local Soil pH sensor
-3. Soil MOisture Sensor
+3. Soil Moisture Sensor
 
 Before using please configure this parameter below :
 1. Define Max Channel 11/13 according to your country (Line 18)
