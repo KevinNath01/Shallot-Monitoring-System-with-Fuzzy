@@ -4,7 +4,8 @@
 2. To make node-RED auto start on boot, execute this command<br />
 ```sudo systemctl enable nodered.service```
 3. Open Node-RED on ```http://<hostname>:1880``` at any pc that connected in the same network
-4. Open the dashboard on ```http://<hostname>:1880/ui```
+4. Import [JSON File](ShalotMonitoringSystem.json).
+5. Open the dashboard on ```http://<hostname>:1880/ui```
 
 
 # Node-RED Configuration
