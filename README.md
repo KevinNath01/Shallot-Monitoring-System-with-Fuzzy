@@ -5,3 +5,10 @@ Folder Explanation :
 1. Folder named ESP-Master, ESP-Slave Output, ESP-Slave contains the code needed to run the program and it is uploaded to the ESP32 Microcontroller.
 2. Folder named Node-RED contains JSON file that is a flow of Node-RED programming and can be imported to Node-RED
 3. Folder named Information contains extra information that may be usefull for further development
+
+Installation Steps : 
+1. Node-RED
+2. Mosquitto
+3. ESP-Master
+4. ESP-Slave Output
+5. ESP-Slave
