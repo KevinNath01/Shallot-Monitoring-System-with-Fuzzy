@@ -12,6 +12,8 @@
    ```sudo apt install sqlite3```
 2. Create database using this command
    ```sqlite3 SENSORDATA.db```
+3. Execute this query to make database table
+```CREATE TABLE IF NOT EXISTS SENSORDATA( ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, VALUETEMP FLOAT NOT NULL, VALUEHUMID FLOAT NOT NULL, VALUESOILMOISTURE FLOAT NOT NULL, VALUEPH FLOAT NOT NULL, TIMESTAMPEPOCH INT NOT NULL, TIMESTAMP NUMERIC NOT NULL)```
 
 # Node-RED Configuration
 This is the flow of node-RED which can be installed in Raspberry Pi and can be accessed using Raspberry Pi IP Address (localhost:1880).
