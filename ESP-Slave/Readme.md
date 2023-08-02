@@ -3,6 +3,9 @@
 ESP-Slave is the ESP32 that connected to the sensors and have a job to retrieving data from sensor and send it to ESP-Master to be processed. The communication to ESP-Master is done with ESP-NOW Protocol so it doesn't need wifi or bluetooth.
 This sensor will send JSON data every 3 seconds and the soil pH value is averaged from 20 sensor reading data to ensure a more stable data reading.
 
+Please look at this schematic for reference :<br />
+<img src="https://github.com/KevinNath01/Shallot-Monitoring-System-with-Fuzzy-Loggic/blob/main/Information/ESP-Slave.png" width=600 height=350>
+
 The sensor use in this project is : 
 1. BME280
 2. Local Soil pH sensor
