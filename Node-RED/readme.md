@@ -7,6 +7,11 @@
 4. Import [JSON File](ShalotMonitoringSystem.json).
 5. Open the dashboard on ```http://<hostname>:1880/ui```
 
+# Install SQLite DB on Raspberry Pi
+1. Install SQLite 3 using this command
+   ```sudo apt install sqlite3```
+2. Create database using this command
+   ```sqlite3 SENSORDATA.db```
 
 # Node-RED Configuration
 This is the flow of node-RED which can be installed in Raspberry Pi and can be accessed using Raspberry Pi IP Address (localhost:1880).
